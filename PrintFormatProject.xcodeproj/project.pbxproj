@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		8448E8EA1BAAC03E008A1F92 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8448E8E91BAAC03E008A1F92 /* main.m */; };
+		8448E8F21BAAC0B1008A1F92 /* PrintFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 8448E8F11BAAC0B1008A1F92 /* PrintFormat.m */; };
+		8448E8F51BAAC2E7008A1F92 /* PlainTextPrintFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 8448E8F41BAAC2E7008A1F92 /* PlainTextPrintFormat.m */; };
+		8448E8F81BAAC4DC008A1F92 /* HTMLPrintFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 8448E8F71BAAC4DC008A1F92 /* HTMLPrintFormat.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,12 @@
 /* Begin PBXFileReference section */
 		8448E8E61BAAC03E008A1F92 /* PrintFormatProject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PrintFormatProject; sourceTree = BUILT_PRODUCTS_DIR; };
 		8448E8E91BAAC03E008A1F92 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8448E8F01BAAC0B1008A1F92 /* PrintFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrintFormat.h; sourceTree = "<group>"; };
+		8448E8F11BAAC0B1008A1F92 /* PrintFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrintFormat.m; sourceTree = "<group>"; };
+		8448E8F31BAAC2E7008A1F92 /* PlainTextPrintFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlainTextPrintFormat.h; sourceTree = "<group>"; };
+		8448E8F41BAAC2E7008A1F92 /* PlainTextPrintFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlainTextPrintFormat.m; sourceTree = "<group>"; };
+		8448E8F61BAAC4DC008A1F92 /* HTMLPrintFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLPrintFormat.h; sourceTree = "<group>"; };
+		8448E8F71BAAC4DC008A1F92 /* HTMLPrintFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLPrintFormat.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				8448E8E91BAAC03E008A1F92 /* main.m */,
+				8448E8F01BAAC0B1008A1F92 /* PrintFormat.h */,
+				8448E8F11BAAC0B1008A1F92 /* PrintFormat.m */,
+				8448E8F31BAAC2E7008A1F92 /* PlainTextPrintFormat.h */,
+				8448E8F41BAAC2E7008A1F92 /* PlainTextPrintFormat.m */,
+				8448E8F61BAAC4DC008A1F92 /* HTMLPrintFormat.h */,
+				8448E8F71BAAC4DC008A1F92 /* HTMLPrintFormat.m */,
 			);
 			path = PrintFormatProject;
 			sourceTree = "<group>";
@@ -118,7 +133,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8448E8F21BAAC0B1008A1F92 /* PrintFormat.m in Sources */,
+				8448E8F51BAAC2E7008A1F92 /* PlainTextPrintFormat.m in Sources */,
 				8448E8EA1BAAC03E008A1F92 /* main.m in Sources */,
+				8448E8F81BAAC4DC008A1F92 /* HTMLPrintFormat.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

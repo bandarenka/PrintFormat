@@ -7,11 +7,17 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "PlainTextPrintFormat.h"
+#import "HTMLPrintFormat.h"
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        NSLog(@"Plain format: ");
+        PrintFormat *pfPlain = [[PlainTextPrintFormat alloc]init];
+        [pfPlain printWithHeader:@"HEADER" content:@"CONTENT" author:@"AUTHOR"];
+        
+        NSLog(@"HTML format: ");
+        PrintFormat *pfHTML = [[HTMLPrintFormat alloc]init];
+        [pfHTML printWithHeader:@"HEADER" content:@"CONTENT" author:@"AUTHOR"];
     }
     return 0;
 }
